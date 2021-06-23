@@ -1,0 +1,32 @@
+iframe {
+    width: 100%;
+}
+
+.coord {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.coord1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coord1 li{
+    list-style: none;
+}
+.coord p{
+    color:#534F48;
+}
+.schedule {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.schedule p{
+    color: #534F48;
+}
