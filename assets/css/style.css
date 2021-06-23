@@ -4,12 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.form {
-    font-family: 'Italianno', cursive;
-    color: #CEA068;
-    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .sendButton {
