@@ -1,0 +1,30 @@
+/* css presenation debut */
+
+h2 {
+    font-family: 'Italianno', cursive;
+    font-size: 100px;
+    color: #CEA068;
+}
+
+.containerPres {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#presentation {
+    font-family: 'Bellota Text', cursive;
+    color: white;
+    font-size: 35px;
+    text-align: justify;
+
+}
+
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+
+/* css presenation fin */
