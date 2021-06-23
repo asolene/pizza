@@ -1,0 +1,93 @@
+/************************SIZEIMG********************/
+.size{
+    width: 600px;
+    height: 350px;
+
+    display: flex;
+    align-items: center
+
+}
+
+.size_pizza{
+    width: 700px;
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.size_antipasti{
+    width: 600px;
+    height: 350px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+/*****************************************/
+.eat_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eat_display p{
+    margin: 0px;
+}
+
+.eat_display h2{
+    text-align: center;
+
+    width: 40%;
+
+    font-family: 'Italianno' ;
+    font-size: xx-large;
+    color: #CEA068;
+
+    margin: 0px;
+}
+
+.align_size{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+}
+
+/******************LISTE*******************/
+
+.eat_display ul{
+    list-style: none;
+    font-size: medium;
+}
+
+.eat_display li{
+    padding: 0.3em 0;
+}
+/*************************************/
+
+
+/******************SEPARATION*******************/
+.categorySeparation{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+
+.separation{
+    height: 10vh;
+}
+
+.separationAll{
+    height: 10vh;
+}
+
+.productName{
+    color: #CEA068;
+    font-size: xx-large;
+
+}
+
+/*************************************/
