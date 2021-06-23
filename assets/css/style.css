@@ -1,0 +1,42 @@
+/* début css formulaire */
+
+#formulaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    font-family: 'Italianno', cursive;
+    color: #CEA068;
+    font-size: xx-large;
+}
+
+.sendButton {
+    background-color: #CEA068 ;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 7px 24px;
+    margin-top: 5px;
+
+}
+
+.sendButton:hover {
+    border-radius: 5px;
+
+}
+
+.productName{
+    color: #CEA068;
+    font-size: xx-large;
+
+}
+
+.categorySeparation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* fin css formulaire */

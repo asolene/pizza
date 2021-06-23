@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
     <title>Projet Pizza - La Pizzeria</title>
 </head>
 <body>
@@ -19,22 +22,38 @@
             <section></section>
 
             <!-- section nous contacter/formulaire-->
-            <section>
+            <section id="form">
 
-                <div>
-                    <form>
-                        <label for="lname">Nom :</label><br>
-                        <input type="text" id="lname" name="lname"><br>
+                <div class="categorySeparation">
+                    <h2 class="productName">Réservation<hr></h2> 
+                </div>
+                
+                <div id="formulaire">
+                    <form action="mailto:email@example.com">
+                        <label for="lname">Nom *:</label><br>
+                        <input type="text" id="lname" name="lname" required><br>
 
-                        <label for="fname">Prénom :</label><br>
-                        <input type="text" id="fname" name="fname"><br>
+                        <label for="fname">Prénom *:</label><br>
+                        <input type="text" id="fname" name="fname" required><br>
 
-                        <label for="email">Adresse mail :</label><br>
-                        <input type="text" id="email" name="email"><br>
+                        <label for="email">Adresse mail *:</label><br>
+                        <input type="text" id="email" name="email" required><br>
 
                         <label for="phone">Numéro de téléphone :</label><br>
-                        <input type="text" id="phone" name="phone"><br>
+                        <input type="text" id="phone" name="phone" required><br>
+
+                        <label for="date">Date *:</label><br>                
+                        <input type="date" name="birtdate" placeholder="select Birth date" required><br>
+
+                        <label for="hour">Heure *:</label><br>
+                        <input type="time" name="mytime" placeholder="Choisir l'heure" required><br>
+
+                        <label for="message">Votre message :</label><br>
+                        <input type="text" id="message" name="message" required><br>
                         
+                        <input type="submit" value="Envoyer" class="sendButton"> 
+                        
+
                       </form>
                 </div>
 
