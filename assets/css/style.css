@@ -1,4 +1,13 @@
-/* css de nous contacter */
+/* début du css nous contacter  */
+#contact{
+    color: #CEA068;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
 iframe {
     width: 100%;
 }
@@ -31,9 +40,8 @@ iframe {
 
 .schedule p{
     color: #534F48;
-}
-
-.schedule p{
+    font-size: 20px;
     margin-top: 30px;
 }
+
 /* fin du css de nous contacter */
