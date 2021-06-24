@@ -12,7 +12,7 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
-    
+
 }
 
 #presentation {
@@ -28,25 +28,24 @@ h1 {
     top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .imagePres {
-      margin-top: 100px;
-  }
+.imagePres {
+    margin-top: 100px;
+}
 
 
 /* css presenation fin */
 /************************SIZEIMG********************/
-.size{
+.size {
     width: 600px;
     height: 350px;
 
     display: flex;
     align-items: center
-
 }
 
-.size_pizza{
+.size_pizza {
     width: 700px;
     height: 450px;
 
@@ -55,7 +54,7 @@ h1 {
 
 }
 
-.size_antipasti{
+.size_antipasti {
     width: 600px;
     height: 350px;
 
@@ -65,64 +64,65 @@ h1 {
 }
 
 /*****************************************/
-.eat_display{
+.eat_display {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.eat_display p{
+.eat_display p {
     margin: 0px;
 }
 
-.eat_display h2{
+.eat_display h2 {
     text-align: center;
 
     width: 40%;
 
-    font-family: 'Italianno' ;
+    font-family: 'Italianno';
     font-size: xx-large;
     color: #CEA068;
 
     margin: 0px;
 }
 
-.align_size{
+.align_size {
     display: flex;
     flex-direction: column;
-    
+
     width: 50%;
 }
 
 /******************LISTE*******************/
 
-.eat_display ul{
+.eat_display ul {
     list-style: none;
     font-size: medium;
 }
 
-.eat_display li{
+.eat_display li {
     padding: 0.3em 0;
 }
+
 /*************************************/
 
 
 /******************SEPARATION*******************/
-.categorySeparation{
+.categorySeparation {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
     align-items: center;
 }
 
-.separation{
+.separation {
     height: 10vh;
 }
 
-.separationAll{
+.separationAll {
     height: 10vh;
 }
 
-.productName{
+.productName {
     color: #CEA068;
     font-size: xx-large;
 
@@ -131,9 +131,11 @@ h1 {
 /*************************************/
 
 /******************début navigation*******************/
-*, ::before, ::after {
+*,
+::before,
+::after {
     box-sizing: border-box;
-    
+
 }
 
 body {
@@ -160,24 +162,27 @@ nav ul {
     margin-right: 20px;
 }
 
-#logo{
+#logo {
     width: 30%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
+
 .anim-nav {
     background: rgb(255, 255, 255);
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
 }
+
 .liste {
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .item1 {
     color: #CEA068;
     margin: 5px 10px;
@@ -187,14 +192,14 @@ nav ul {
 /*****************fin navigation********************/
 
 /* début du css nous contacter  */
-#contact{
+#contact {
     color: #CEA068;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 25px;
     font-size: 30px;
-    
+
 }
 
 iframe {
@@ -214,20 +219,23 @@ iframe {
     align-items: center;
     justify-content: center;
 }
-.coord1 li{
+
+.coord1 li {
     list-style: none;
 }
-.coord p{
-    color:#534F48;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+.coord p {
+    color: #534F48;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .schedule {
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
-.schedule p{
+.schedule p {
     color: #534F48;
     font-size: 20px;
     margin-top: 30px;
@@ -236,90 +244,91 @@ iframe {
 /* fin du css de nous contacter */
 
 /* début css formulaire */
- 
- 
+
+
 #formulaire {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
- 
-    
+
+
 }
- 
+
 .sendButton {
-    background-color: #CEA068 ;
+    background-color: #CEA068;
     color: white;
     border-radius: 2px;
     border: none;
     padding: 7px 24px;
     margin-top: 5px;
- 
- 
+
+
 }
- 
+
 .sendButton:hover {
     border-radius: 5px;
- 
+
 }
- 
-.productName{
+
+.productName {
     color: #CEA068;
     font-size: xx-large;
- 
+
 }
- 
-.categorySeparation{
+
+.categorySeparation {
     display: flex;
     justify-content: center;
     align-items: center;
 }
- 
+
 .barre1 {
     margin-left: 125px;
 }
- 
+
 .barre2 {
     margin-left: 105px;
 }
- 
+
 .barre3 {
     margin-left: 69px;
 }
- 
+
 .barre4 {
     margin-left: 16px;
 }
- 
+
 .barre5 {
     margin-left: 130px;
 }
- 
+
 .barre6 {
     margin-left: 120px;
 }
- 
- 
+
+
 .barre7 {
     margin-left: 60px;
 }
- 
+
 .margin {
     margin-top: 5%;
 }
- 
+
 input {
     width: 400px;
 }
- 
+
 input:last-child {
     width: 100px;
     margin-left: 488px;
 }
+
 /* fin css formulaire */
 
 
-.footerPosition{
+.footerPosition {
     background-color: #CEA068;
     height: 18vh;
     width: 100%;
@@ -333,13 +342,12 @@ input:last-child {
     color: whitesmoke;
 }
 
-.footerPosition a{
+.footerPosition a {
     color: whitesmoke;
     text-decoration: none;
 }
 
-.footerPosition a:hover{
+.footerPosition a:hover {
     background-color: #d6b184;
     text-decoration: underline 1px;
 }
-
