@@ -32,4 +32,8 @@ iframe {
 .schedule p{
     color: #534F48;
 }
+
+.schedule p{
+    margin-top: 30px;
+}
 /* fin du css de nous contacter */
