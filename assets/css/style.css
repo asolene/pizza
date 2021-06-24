@@ -232,6 +232,91 @@ iframe {
 }
 
 /* fin du css de nous contacter */
+
+/* début css formulaire */
+ 
+ 
+#formulaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+ 
+    
+}
+ 
+.sendButton {
+    background-color: #CEA068 ;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 7px 24px;
+    margin-top: 5px;
+ 
+ 
+}
+ 
+.sendButton:hover {
+    border-radius: 5px;
+ 
+}
+ 
+.productName{
+    color: #CEA068;
+    font-size: xx-large;
+ 
+}
+ 
+.categorySeparation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.barre1 {
+    margin-left: 125px;
+}
+ 
+.barre2 {
+    margin-left: 105px;
+}
+ 
+.barre3 {
+    margin-left: 69px;
+}
+ 
+.barre4 {
+    margin-left: 16px;
+}
+ 
+.barre5 {
+    margin-left: 130px;
+}
+ 
+.barre6 {
+    margin-left: 120px;
+}
+ 
+ 
+.barre7 {
+    margin-left: 60px;
+}
+ 
+.margin {
+    margin-top: 5%;
+}
+ 
+input {
+    width: 400px;
+}
+ 
+input:last-child {
+    width: 100px;
+    margin-left: 488px;
+}
+/* fin css formulaire */
+
+
 .footerPosition{
     background-color: #CEA068;
     height: 18vh;
