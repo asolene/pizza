@@ -232,3 +232,26 @@ iframe {
 }
 
 /* fin du css de nous contacter */
+.footerPosition{
+    background-color: #CEA068;
+    height: 18vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: dashed;
+
+    color: whitesmoke;
+}
+
+.footerPosition a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footerPosition a:hover{
+    background-color: #d6b184;
+    text-decoration: underline 1px;
+}
