@@ -262,6 +262,19 @@ iframe {
     border: none;
     padding: 7px 24px;
     margin-top: 5px;
+    cursor: pointer;
+
+
+}
+
+.sendButton:hover {
+    background-color: #c5873a;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 7px 24px;
+    margin-top: 5px;
+    cursor: pointer;
 
 
 }
