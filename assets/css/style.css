@@ -4,6 +4,7 @@ h1 {
     font-family: 'Italianno', cursive;
     font-size: 100px;
     color: #CEA068;
+    margin: 0px;
 }
 
 .containerPres {
@@ -16,7 +17,7 @@ h1 {
 #presentation {
     font-family: 'Bellota Text', cursive;
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     text-align: justify;
 
 }
