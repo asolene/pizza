@@ -21,3 +21,7 @@
     background-color: #d6b184;
     text-decoration: underline 1px;
 }
+.footerPosition li{
+    margin-bottom: 4px;
+}
+
