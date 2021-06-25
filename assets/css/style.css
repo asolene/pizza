@@ -159,6 +159,11 @@ nav {
     background-color: white;
 }
 
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 
 nav ul {
     margin-right: 20px;
